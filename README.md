@@ -7,7 +7,7 @@
 ### 一键部署
 ```bash
 # 下载并运行初始化脚本
-curl -sSL https://raw.githubusercontent.com/your-repo/zoom-bot/main/setup_project.sh | bash
+curl -sSL https://raw.githubusercontent.com/hanzch/zoom_boot/main/setup_project.sh | bash
 
 # 或本地初始化
 ./setup_project.sh ./my-zoom-bot --start
@@ -16,8 +16,8 @@ curl -sSL https://raw.githubusercontent.com/your-repo/zoom-bot/main/setup_projec
 ### 手动安装
 ```bash
 # 1. 创建项目
-git clone https://github.com/your-repo/zoom-bot.git
-cd zoom-bot
+git clone https://github.com/hanzch/zoom_boot.git
+cd zoom_boot
 
 # 2. 初始化项目
 ./setup_project.sh ./zoom-chatbot
@@ -116,7 +116,7 @@ curl -X POST http://localhost:3001/webhook \
 ### 使用一键部署脚本
 ```bash
 # 下载部署脚本
-curl -sSL https://raw.githubusercontent.com/your-repo/zoom-bot/main/deploy.sh -o deploy.sh
+curl -sSL https://raw.githubusercontent.com/hanzch/zoom_boot/main/deploy.sh -o deploy.sh
 chmod +x deploy.sh
 
 # 运行部署（自动安装Node.js、PM2、Caddy等）
@@ -211,8 +211,8 @@ npm run dev
 
 ## 📞 支持
 
-- **问题反馈**: [GitHub Issues](https://github.com/your-repo/zoom-bot/issues)
-- **文档**: [项目Wiki](https://github.com/your-repo/zoom-bot/wiki)
+- **问题反馈**: [GitHub Issues](https://github.com/hanzch/zoom_boot/issues)
+- **文档**: [项目Wiki](https://github.com/hanzch/zoom_boot/wiki)
 - **相关链接**: [Zoom API文档](https://marketplace.zoom.us/docs/api-reference/zoom-api)
 
 <div align="center">

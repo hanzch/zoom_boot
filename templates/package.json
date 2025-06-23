@@ -39,10 +39,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/your-username/zoom-chatbot.git"
+      "url": "https://github.com/hanzch/zoom_boot.git"
     },
     "bugs": {
-      "url": "https://github.com/your-username/zoom-chatbot/issues"
+      "url": "https://github.com/hanzch/zoom_boot/issues"
     },
-    "homepage": "https://github.com/your-username/zoom-chatbot#readme"
+    "homepage": "https://github.com/hanzch/zoom_boot#readme"
   }
